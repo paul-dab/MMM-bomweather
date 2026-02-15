@@ -207,25 +207,25 @@ console.log(forecast);
         switch (this.config.locationState) {
             case "ACT":
             case "NSW":
-                return "http://www.bom.gov.au/fwo/IDN11060.xml";
+                return "http://reg.bom.gov.au/fwo/IDN11060.xml";
                 break;
             case "NT":
-                return "http://www.bom.gov.au/fwo/IDD10207.xml";
+                return "http://reg.bom.gov.au/fwo/IDD10207.xml";
                 break;
             case "QLD":
-                return "http://www.bom.gov.au/fwo/IDQ11295.xml";
+                return "http://reg.bom.gov.au/fwo/IDQ11295.xml";
                 break;
             case "SA":
-                return "http://www.bom.gov.au/fwo/IDS10044.xml";
+                return "http://reg.bom.gov.au/fwo/IDS10044.xml";
                 break;
             case "TAS":
-                return "http://www.bom.gov.au/fwo/IDT16710.xml";
+                return "http://reg.bom.gov.au/fwo/IDT16710.xml";
                 break;
             case "VIC":
-                return "http://www.bom.gov.au/fwo/IDV10753.xml";
+                return "http://reg.bom.gov.au/fwo/IDV10753.xml";
                 break;
             case "WA":
-                return "http://www.bom.gov.au/fwo/IDW14199.xml";
+                return "http://reg.bom.gov.au/fwo/IDW14199.xml";
                 break;
             default:
                 break;
